@@ -1,9 +1,9 @@
-# Youtube-Channel-Subscription-Trend-Forecasting-with-Prophet
+## Youtube-Channel-Subscription-Trend-Forecasting-with-Prophet
 
-## Overview
+### Overview
 This project aims to forecast subscription trends using the Prophet model, which is designed to handle time series data with complex seasonal patterns, long-term trends, and disruptions such as holidays or special events. The objective is to generate accurate and interpretable predictions for subscription data, providing insights for business strategy and decision-making.
 
-## Why Prophet?
+### Why Prophet?
 The Prophet model was chosen for its:
 - **Ability to handle seasonal patterns**: Automatically detects weekly, yearly, and custom seasonality.
 - **Robustness to missing data and outliers**: Ideal for real-world data with gaps or irregularities.
@@ -12,9 +12,9 @@ The Prophet model was chosen for its:
 
 By leveraging Prophet, this project captures both regular and irregular patterns in the subscription data to ensure reliable forecasting.
 
-## Project Structure
+### Project Structure
 
-## Usage
+### Usage
 
 1. **Data Preprocessing**: 
 - Prepare your subscription data by placing it in the `data/` directory.
@@ -30,7 +30,7 @@ By leveraging Prophet, this project captures both regular and irregular patterns
 4. **Results**:
 - The forecasted results will include trend components, seasonality, and residuals, allowing for detailed analysis of the subscription behavior.
 
-## Dependencies
+### Dependencies
 
 This project requires the following Python packages:
 - `prophet`
@@ -43,7 +43,7 @@ This project requires the following Python packages:
 You can install all dependencies using: 
 pip install -r requirements.txt
 
-## Contact
+### Contact
 
 For any inquiries or suggestions, feel free to reach out to oishika.kar@gmail.com.
 
